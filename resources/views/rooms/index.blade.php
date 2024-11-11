@@ -21,7 +21,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="description" class="form-label">Descripción</label>
-                    <textarea name="description" id="description" class="form-control" rows="3" required>{{ isset($room) ? $room->description : '' }}</textarea>
+                    <textarea name="description" id="description" class="form-control" rows="3" >{{ isset($room) ? $room->description : '' }}</textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">{{ isset($room) ? 'Actualizar Habitación' : 'Crear Habitación' }}</button>
                 @if (isset($room))

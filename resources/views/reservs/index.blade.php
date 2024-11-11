@@ -57,6 +57,7 @@
                 <table class="table table-striped">
                     <thead>
                         <tr>
+                            <th scope="col">Usuario</th>
                             <th scope="col">Habitación</th>
                             <th scope="col">Fecha y Hora de Reservación</th>
                             <th scope="col">Estado</th>
@@ -65,6 +66,7 @@
                     <tbody>
                         @forelse ($reservations as $reservation)
                             <tr>
+                                <td>{{ $reservation->user->name }}</td>
                                 <td>{{ $reservation->room->name }}</td>
                                 <td>{{ $reservation->start_date }} hasta {{ $reservation->end_date }} </td>
                                 <td>{{ $reservation->state }}</td>

@@ -18,7 +18,7 @@ class RoomController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'description' => 'required',
+
         ]);
 
         $room = new Room();
