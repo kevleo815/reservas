@@ -9,3 +9,9 @@ Pasos para levantar el proyecto
 7. Ejecutar npm run dev
 8. Ejecutar php artiasn serve 
 9. Ingresar a la direccion 127.0.0.1:8000  
+
+
+El usuario Administrador
+
+Correo electronico: admin@gmail.com
+contraseña :        123456789
